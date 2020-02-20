@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Capture first message
+      shell: echo "my message 1" > /home/ubuntu/day-1/output.txt
+
+    - name: Capture second message
+      shell: echo "my message 2" >> /home/ubuntu/day-1/output.txt
+

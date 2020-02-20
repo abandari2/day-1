@@ -1,0 +1,5 @@
+---
+- hosts: ec2-54-161-198-54.compute-1.amazonaws.com
+  tasks:
+   - name: Print my message
+     debug: msg="Welcome to Ansible day1"     
